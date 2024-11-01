@@ -1,0 +1,115 @@
+
+/*================================
+=============== Related Posts
+==================================*/
+
+.related-post-warp {
+   margin: 10px 0px 20px 0px;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.related-post-warp .related-post-headline {}
+
+.related-post-warp .related-post-headline a:hover {
+   text-decoration: underline;
+}
+
+.related-post-warp .related-post-block {
+   display: inline-block;
+   width: 31.5%;
+   vertical-align: top;
+   margin: 0px 5px 10px 5px;
+   border: 1px solid #e0e1e1;
+   padding: 8px 8px 8px 8px;
+   box-sizing: border-box;   
+}
+
+/* .related-post-warp .related-post-block-bigger {width: 48%} */
+
+.related-post-warp .related-post-block .related-post-image {
+   text-align: center;
+   margin: 0 auto;
+}
+
+.related-post-warp .related-posts-img {
+   max-height: 250px;
+   overflow: hidden;
+}
+
+.related-post-warp .related-post-block .related-post-image img {
+   margin: 0 auto;
+   padding: 0px;
+}
+
+.related-post-warp .related-post-block .related-post-title {
+   margin: 5px 0px 0px 0px;
+   padding: 5px 0px 0px 0px;
+   font-size: 18px;
+   line-height: 23px;
+   font-weight: bold;
+   color: #3f3f3f;
+   display: block;
+}
+
+.related-post-warp .related-post-block .related-post-title,
+.related-post-warp .related-post-block .related-post-title a {
+   color: #3f3f3f;
+}
+
+.related-post-warp .related-post-block .related-post-title a:hover {
+   text-decoration: underline;
+}
+
+.related-post-warp .related-post-block p.related-post-description {
+   padding: 0px 0px 0px 0px;
+   margin: 5px 0px 0px 0px;
+   font-size: 15px;
+   line-height: 25px;
+   letter-spacing: 0px;
+   color: #717171;
+}
+
+.related-post-warp-error {
+   text-align: center;
+   margin: 20px 0px 20px 0px;
+   border: 2px solid #f00;
+   padding: 40px 10px 40px 10px;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+.related-posts-clear {
+   clear: both;
+}
+
+/*================================
+=============== Mobile
+==================================*/
+
+@media only screen and (max-width: 1000px) {
+
+   .related-post-warp .related-post-block {
+      width: 31%;
+   }
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+  .related-post-warp .related-post-block-bigger,
+  .related-post-warp .related-post-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px auto 15px;
+  }
+
+  .related-post-warp .related-posts-img {
+      max-height: 100%;
+      overflow: visible;
+   }
+  
+}
